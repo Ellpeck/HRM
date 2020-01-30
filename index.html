@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HRM by Ellpeck</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <textarea class="inout" id="inbox" placeholder="Inbox"></textarea>
+        <textarea id="code" placeholder="Paste or write your code here"></textarea class="inout">
+        <textarea class="inout" id="outbox" placeholder="Outbox" readonly></textarea>
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-secondary" id="run">Run</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>

@@ -1,0 +1,20 @@
+#main {
+    display: inline-block;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+.inout {
+    width: 3em;
+    text-align: center;
+    height: 400px;
+}
+
+#code {
+    width: 600px;
+    height: 400px;
+}
+
+textarea {
+    resize: none;
+}
